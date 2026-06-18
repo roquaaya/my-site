@@ -1,4 +1,4 @@
-import { r as reactExports, T as jsxRuntimeExports } from "./worker-entry-3LOlq5tT.js";
+import { r as reactExports, T as jsxRuntimeExports } from "./worker-entry-CcEaOhAe.js";
 import "node:events";
 import "node:async_hooks";
 import "node:stream/web";
@@ -8134,9 +8134,9 @@ function StaffReadyLanding() {
   ];
   const SOCIAL_LINKS = [
     { name: "واتساب", url: "https://wa.me/201095225309", color: "#2f3b86" },
-    { name: "فيسبوك", url: "https://www.facebook.com/share/17VwxWkL61/", color: "#1877F2" },
-    { name: "تيك توك", url: "https://www.tiktok.com/@staff.ready?_r=1&_t=ZS-95ph659JrSJ", color: "#40435e" },
-    { name: "إنستجرام", url: "https://www.instagram.com/staff_ready?igsh=MTRpd3Y3MXBjbHB4Mg== ", color: "#3330ca" }
+    { name: "فيسبوك", url: "https://www.facebook.com/share/17ZLoodYBo/ ", color: "#1877F2" },
+    { name: "تيك توك", url: "https://www.tiktok.com/@staffready0?_r=1&_t=ZS-97Gjk1ZGB9N ", color: "#40435e" },
+    { name: "إنستجرام", url: " https://www.instagram.com/staff_ready?igsh=ZDM1M3FuemY1N21w", color: "#3330ca" }
   ];
   const [dark, setDark] = reactExports.useState(true);
   const [lang, setLang] = reactExports.useState("ar");

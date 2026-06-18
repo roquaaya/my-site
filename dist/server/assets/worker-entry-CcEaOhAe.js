@@ -16672,7 +16672,7 @@ function getResponse() {
 }
 var HEADERS = { TSS_SHELL: "X-TSS_SHELL" };
 async function getStartManifest(matchedRoutes) {
-  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-hAm78xba.js");
+  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-B0iP5QJ2.js");
   const startManifest = tsrStartManifest();
   const rootRoute = startManifest.routes[rootRouteId] = startManifest.routes[rootRouteId] || {};
   rootRoute.assets = rootRoute.assets || [];
@@ -17274,7 +17274,7 @@ var baseManifestPromise;
 var cachedFinalManifestPromise;
 async function loadEntries() {
   const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-    import("./router-7l05adYF.js"),
+    import("./router-CVgT8Yo-.js"),
     import("./start-HYkvq4Ni.js"),
     import("./__23tanstack-start-plugin-adapters-Cwee5PKy.js")
   ]);
@@ -17303,8 +17303,8 @@ async function resolveManifest(matchedRoutes, transformFn, cache) {
   }
   return computeFinalManifest();
 }
-var ROUTER_BASEPATH = "/";
-var SERVER_FN_BASE = "/_serverFn/";
+var ROUTER_BASEPATH = "./staff-ready-landing";
+var SERVER_FN_BASE = "/./staff-ready-landing/_serverFn/";
 var IS_PRERENDERING = process.env.TSS_PRERENDERING === "true";
 var IS_SHELL_ENV = process.env.TSS_SHELL === "true";
 var ERR_NO_RESPONSE = "Internal Server Error";
